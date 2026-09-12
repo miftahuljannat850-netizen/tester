@@ -1,7 +1,7 @@
 // EDIT THIS: point to wherever the backend is running.
 // Same VPS, different port  -> http://YOUR_VPS_IP:5000
 // Local testing             -> http://localhost:5000
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "";
 
 const form = document.getElementById("uploadForm");
 const fileInput = document.getElementById("fileInput");
