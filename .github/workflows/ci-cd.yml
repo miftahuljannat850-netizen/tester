@@ -33,7 +33,7 @@ jobs:
           curl --fail http://localhost:5000/api/health
           kill %1
 
-    deploy:
+  deploy:
     name: Deploy to VPS
     runs-on: ubuntu-latest
     needs: build
