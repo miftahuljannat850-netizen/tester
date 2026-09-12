@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple File Upload Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>File Upload Demo</h1>
+    <p class="subtitle">Frontend + Express/Multer backend on a VPS</p>
+
+    <form id="uploadForm">
+      <input type="file" id="fileInput" name="file" required />
+      <button type="submit">Upload</button>
+    </form>
+
+    <p id="status"></p>
+
+    <h2>Uploaded Files</h2>
+    <ul id="fileList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
